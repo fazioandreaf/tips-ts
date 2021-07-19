@@ -6,8 +6,9 @@ function printResult(num) {
     console.log('Result: ' + num);
 }
 printResult(add(5, 12));
+// accetto qualsiasi funzione che ha come paramentri di inserimento due numeri
 var combineValues;
 combineValues = add;
-combineValues = printResult;
+// combineValues=printResult;
 // combineValues=5;
 console.log(combineValues(8, 8));
