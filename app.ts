@@ -14,5 +14,5 @@ function generateError(message:string,code:number) {
         errorCode:code
     };
 }
-generateError('An error',500);
+// generateError('An error',500);
 console.log('ciao')
