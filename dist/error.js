@@ -1,8 +1,8 @@
 "use strict";
-var userInput;
+let userInput;
 userInput = 5;
 userInput = 'max';
-var userName;
+let userName;
 // userName=userInput;
 // si può usare come check
 if (typeof userInput === 'string') {
